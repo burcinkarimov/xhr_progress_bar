@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  padding-top: 20px;
+}
+
+input {
+  display: flex;
+  width: 300px;
+  padding: 50px 0px 50px 120px;
+}
+
+#progress {
+  width: 300px;
+  background: #e7e1e1;
+  height: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#progress_bar {
+  background: rgb(7, 136, 241);
+  height: 100%;
+  width: 0%;
+}
